@@ -48,7 +48,7 @@
                     To improve the quality of life for individuals living with sickle cell disease through comprehensive education, tireless advocacy, accessible support services, and community empowerment.
                 </p>
             </div>
-            
+
             <!-- Vision -->
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mb-4">
@@ -62,7 +62,7 @@
                     A future where sickle cell disease is diagnosed early, treated effectively, and where every affected individual lives a full, healthy, and dignified life free from stigma and discrimination.
                 </p>
             </div>
-            
+
             <!-- Values -->
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mb-4">
@@ -103,7 +103,7 @@
                 We work across multiple dimensions to create comprehensive impact
             </p>
         </div>
-        
+
         <div class="max-w-4xl mx-auto space-y-8">
             <div class="flex items-start animate-on-scroll">
                 <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
@@ -116,7 +116,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <div class="flex items-start animate-on-scroll">
                 <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
                     <span class="text-secondary font-bold text-xl">2</span>
@@ -128,7 +128,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <div class="flex items-start animate-on-scroll">
                 <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
                     <span class="text-accent-700 font-bold text-xl">3</span>
@@ -140,7 +140,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <div class="flex items-start animate-on-scroll">
                 <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
                     <span class="text-primary font-bold text-xl">4</span>

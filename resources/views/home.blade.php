@@ -53,7 +53,7 @@
                 Sickle cell disease is a genetic blood disorder that affects millions worldwide. Early diagnosis and proper care can significantly improve quality of life.
             </p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mb-4">
@@ -69,7 +69,7 @@
                     Learn More →
                 </a>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-secondary-50 rounded-full flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,7 +84,7 @@
                     Learn More →
                 </a>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -112,7 +112,7 @@
                 We work across multiple fronts to create lasting impact in the fight against sickle cell disease
             </p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-primary to-primary-700 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -125,7 +125,7 @@
                     Educating communities about sickle cell disease, its causes, symptoms, and the importance of early detection.
                 </p>
             </div>
-            
+
             <div class="text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-secondary to-secondary-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -137,7 +137,7 @@
                     Championing policy changes and healthcare improvements to ensure better access to treatment and care.
                 </p>
             </div>
-            
+
             <div class="text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-accent to-accent-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,7 +161,7 @@
             <h2 class="text-primary mb-4">Impact Stories</h2>
             <p class="text-lg text-gray-600">Hear from those whose lives have been touched by our work</p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             @foreach($testimonials as $testimonial)
             <div class="bg-white rounded-xl p-6 shadow-lg animate-on-scroll">

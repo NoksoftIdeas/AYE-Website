@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }} - Admin Dashboard</title>
-    
+
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('admin/images/favicon.png') }}">
-    
+
     <!-- Datatable -->
     <link href="{{ asset('admin/vendor/datatables/css/jquery.dataTables.min.css') }}" rel="stylesheet">
-    
+
     <!-- Custom Stylesheet -->
     <link href="{{ asset('admin/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet">
     <link href="{{ asset('admin/css/style.css') }}" rel="stylesheet">
-    
+
     <!-- Custom Color Overrides -->
     <style>
         :root {
@@ -24,89 +24,89 @@
             --secondary: #2FA4A9;
             --accent: #F4D35E;
         }
-        
+
         /* Override primary colors */
         .bg-primary, .btn-primary, .badge-primary {
             background-color: #8B1E3F !important;
             border-color: #8B1E3F !important;
         }
-        
+
         .text-primary {
             color: #8B1E3F !important;
         }
-        
+
         .border-primary {
             border-color: #8B1E3F !important;
         }
-        
+
         /* Sidebar and Nav Header */
         .nav-header {
             background-color: #8B1E3F !important;
         }
-        
+
         .deznav {
             background-color: #8B1E3F !important;
         }
-        
+
         .deznav .metismenu > li > a {
             color: rgba(255, 255, 255, 0.8) !important;
         }
-        
+
         .deznav .metismenu > li.mm-active > a,
         .deznav .metismenu > li:hover > a {
             background-color: rgba(47, 164, 169, 0.2) !important;
             color: #ffffff !important;
         }
-        
+
         /* Header */
         .header {
             background-color: #ffffff;
             border-bottom: 1px solid #f0f0f0;
         }
-        
+
         /* Cards with accent colors */
         .card-coin .currency-icon circle:first-child {
             fill: #F4D35E !important;
         }
-        
+
         /* Stats cards */
         .stats-card-1 .currency-icon path:last-child {
             fill: #2FA4A9 !important;
         }
-        
+
         .stats-card-2 .currency-icon path:last-child {
             fill: #F4D35E !important;
         }
-        
+
         .stats-card-3 .currency-icon path:last-child {
             fill: #8B1E3F !important;
         }
-        
+
         /* Buttons */
         .btn-primary:hover {
             background-color: #6F1832 !important;
             border-color: #6F1832 !important;
         }
-        
+
         .btn-secondary {
             background-color: #2FA4A9 !important;
             border-color: #2FA4A9 !important;
         }
-        
+
         .btn-secondary:hover {
             background-color: #268387 !important;
             border-color: #268387 !important;
         }
-        
+
         /* Links and accent elements */
         a {
             color: #8B1E3F;
         }
-        
+
         a:hover {
             color: #6F1832;
         }
-        
+
         /* Brand logo background */
         .brand-logo .svg-logo-rect {
             fill: #8B1E3F !important;
@@ -286,7 +286,7 @@
 	<script src="{{ asset('admin/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"></script>
     <script src="{{ asset('admin/js/custom.min.js') }}"></script>
 	<script src="{{ asset('admin/js/deznav-init.js') }}"></script>
-	
+
     <!-- Datatable -->
     <script src="{{ asset('admin/vendor/datatables/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('admin/js/plugins-init/datatables.init.js') }}"></script>

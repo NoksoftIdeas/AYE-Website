@@ -19,7 +19,7 @@
                 Whether you want to volunteer your time, partner with us, or support our cause in other ways, there are many opportunities to get involved and help us create lasting impact in the fight against sickle cell disease.
             </p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="card text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-primary to-primary-700 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -35,7 +35,7 @@
                     Apply Now →
                 </a>
             </div>
-            
+
             <div class="card text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-secondary to-secondary-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@
                     Learn More →
                 </a>
             </div>
-            
+
             <div class="card text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-accent to-accent-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,7 +75,7 @@
             <h2 class="text-primary mb-4">Volunteer Opportunities</h2>
             <p class="text-lg text-gray-600">Join our team and make a meaningful impact</p>
         </div>
-        
+
         <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-3">Community Outreach</h3>
@@ -97,7 +97,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-3">Healthcare Support</h3>
                 <p class="text-gray-600 mb-4">
@@ -118,7 +118,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-3">Content Creation</h3>
                 <p class="text-gray-600 mb-4">
@@ -139,7 +139,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-3">Administrative Support</h3>
                 <p class="text-gray-600 mb-4">
@@ -173,13 +173,13 @@
                     Fill out the form below and we'll get back to you soon!
                 </p>
             </div>
-            
+
             @if(session('success'))
             <div class="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg mb-6 animate-on-scroll">
                 {{ session('success') }}
             </div>
             @endif
-            
+
             @if($errors->any())
             <div class="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg mb-6 animate-on-scroll">
                 <ul class="list-disc list-inside">
@@ -189,50 +189,50 @@
                 </ul>
             </div>
             @endif
-            
+
             <form action="{{ route('volunteer.submit') }}" method="POST" class="bg-white rounded-lg shadow-lg p-8 animate-on-scroll">
                 @csrf
-                
+
                 <div class="space-y-6">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <label for="name" class="label">Full Name <span class="text-red-500">*</span></label>
                             <input type="text" id="name" name="name" value="{{ old('name') }}" required class="input-field" placeholder="John Doe">
                         </div>
-                        
+
                         <div>
                             <label for="email" class="label">Email Address <span class="text-red-500">*</span></label>
                             <input type="email" id="email" name="email" value="{{ old('email') }}" required class="input-field" placeholder="john@example.com">
                         </div>
                     </div>
-                    
+
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <label for="phone" class="label">Phone Number <span class="text-red-500">*</span></label>
                             <input type="tel" id="phone" name="phone" value="{{ old('phone') }}" required class="input-field" placeholder="+234 XXX XXX XXXX">
                         </div>
-                        
+
                         <div>
                             <label for="address" class="label">Address</label>
                             <input type="text" id="address" name="address" value="{{ old('address') }}" class="input-field" placeholder="City, State">
                         </div>
                     </div>
-                    
+
                     <div>
                         <label for="skills" class="label">Skills & Qualifications</label>
                         <textarea id="skills" name="skills" rows="3" class="input-field" placeholder="Tell us about your relevant skills, experience, and qualifications...">{{ old('skills') }}</textarea>
                     </div>
-                    
+
                     <div>
                         <label for="interest_areas" class="label">Areas of Interest</label>
                         <textarea id="interest_areas" name="interest_areas" rows="3" class="input-field" placeholder="Which volunteer opportunities interest you? (e.g., Community Outreach, Healthcare Support, Content Creation, etc.)">{{ old('interest_areas') }}</textarea>
                     </div>
-                    
+
                     <div>
                         <label for="message" class="label">Why do you want to volunteer?</label>
                         <textarea id="message" name="message" rows="4" class="input-field" placeholder="Share your motivation and what you hope to contribute...">{{ old('message') }}</textarea>
                     </div>
-                    
+
                     <button type="submit" class="btn btn-primary w-full">
                         Submit Application
                     </button>
@@ -248,7 +248,7 @@
             <h2 class="text-primary mb-4">Partner With Us</h2>
             <p class="text-lg text-gray-600">Collaborative opportunities for organizations and institutions</p>
         </div>
-        
+
         <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-white p-8 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Healthcare Institutions</h3>
@@ -262,7 +262,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <div class="bg-white p-8 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Corporate Partners</h3>
                 <p class="text-gray-600 mb-4">
@@ -275,7 +275,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <div class="bg-white p-8 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">NGOs & Community Groups</h3>
                 <p class="text-gray-600 mb-4">
@@ -288,7 +288,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <div class="bg-white p-8 rounded-lg shadow animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Research Institutions</h3>
                 <p class="text-gray-600 mb-4">

@@ -19,7 +19,7 @@
                 Advocacy is essential in ensuring that people living with sickle cell disease have access to quality healthcare, affordable treatment, and the support they need to thrive. Through awareness campaigns, policy engagement, and community mobilization, we work to create lasting change.
             </p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-primary to-primary-700 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -32,7 +32,7 @@
                     Educating communities about sickle cell disease to reduce stigma and promote understanding
                 </p>
             </div>
-            
+
             <div class="text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-secondary to-secondary-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@
                     Advocating for better healthcare policies and affordable access to treatment and care
                 </p>
             </div>
-            
+
             <div class="text-center animate-on-scroll">
                 <div class="w-20 h-20 bg-gradient-to-br from-accent to-accent-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@
         <div class="text-center mb-12 animate-on-scroll">
             <h2 class="text-primary mb-4">Our Advocacy Focus Areas</h2>
         </div>
-        
+
         <div class="max-w-5xl mx-auto space-y-6">
             <div class="bg-white rounded-lg shadow-lg p-8 animate-on-scroll">
                 <div class="flex items-start">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="bg-white rounded-lg shadow-lg p-8 animate-on-scroll">
                 <div class="flex items-start">
                     <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4 mt-1">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="bg-white rounded-lg shadow-lg p-8 animate-on-scroll">
                 <div class="flex items-start">
                     <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4 mt-1">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="bg-white rounded-lg shadow-lg p-8 animate-on-scroll">
                 <div class="flex items-start">
                     <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4 mt-1">
@@ -132,7 +132,7 @@
             <h2 class="text-primary mb-4">Awareness Campaigns</h2>
             <p class="text-lg text-gray-600">Our ongoing efforts to educate and mobilize communities</p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div class="bg-gradient-to-br from-primary-50 to-primary-100 p-8 rounded-lg animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Community Outreach</h3>
@@ -154,7 +154,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="bg-gradient-to-br from-secondary-50 to-secondary-100 p-8 rounded-lg animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Media & Communication</h3>
                 <p class="text-gray-700 mb-4">
@@ -175,7 +175,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="bg-gradient-to-br from-accent-50 to-accent-100 p-8 rounded-lg animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Healthcare Professional Training</h3>
                 <p class="text-gray-700 mb-4">
@@ -196,7 +196,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 rounded-lg animate-on-scroll">
                 <h3 class="text-xl font-semibold mb-4">Policy Engagement</h3>
                 <p class="text-gray-700 mb-4">
@@ -228,7 +228,7 @@
                 <h2 class="text-primary mb-4">How You Can Advocate</h2>
                 <p class="text-lg text-gray-600">Everyone can make a difference in the fight against sickle cell disease</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                     <h3 class="text-lg font-semibold mb-3">Share Your Story</h3>
@@ -236,21 +236,21 @@
                         Personal stories have power. Share your experience to inspire others and raise awareness.
                     </p>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                     <h3 class="text-lg font-semibold mb-3">Educate Others</h3>
                     <p class="text-gray-600">
                         Talk to friends, family, and colleagues about sickle cell disease and dispel myths.
                     </p>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                     <h3 class="text-lg font-semibold mb-3">Support Campaigns</h3>
                     <p class="text-gray-600">
                         Participate in our awareness campaigns and help us reach more people with vital information.
                     </p>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow animate-on-scroll">
                     <h3 class="text-lg font-semibold mb-3">Engage Policymakers</h3>
                     <p class="text-gray-600">

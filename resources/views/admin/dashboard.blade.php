@@ -11,32 +11,32 @@
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
         }
-        
+
         .stat-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
-        
+
         .stat-card-primary {
             background: linear-gradient(135deg, #8B1E3F 0%, #6F1832 100%);
         }
-        
+
         .stat-card-secondary {
             background: linear-gradient(135deg, #2FA4A9 0%, #268387 100%);
         }
-        
+
         .stat-card-accent {
             background: linear-gradient(135deg, #F4D35E 0%, #E6B91C 100%);
         }
-        
+
         .stat-card-mixed {
             background: linear-gradient(135deg, #8B1E3F 0%, #2FA4A9 100%);
         }
-        
+
         .stat-card .card-body {
             padding: 30px 20px;
         }
-        
+
         .stat-icon-wrapper {
             width: 70px;
             height: 70px;
@@ -47,12 +47,12 @@
             justify-content: center;
             margin: 0 auto 20px;
         }
-        
+
         .stat-icon {
             font-size: 32px;
             color: white;
         }
-        
+
         .stat-number {
             font-size: 2.5rem;
             font-weight: 700;
@@ -60,7 +60,7 @@
             margin-bottom: 10px;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        
+
         .stat-label {
             color: rgba(255, 255, 255, 0.9);
             font-size: 0.9rem;
@@ -68,24 +68,24 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
-        
+
         .activity-card {
             border: none;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
         }
-        
+
         .activity-card .card-header {
             background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
             border-bottom: 2px solid #8B1E3F;
             padding: 20px 25px;
         }
-        
+
         .table-modern {
             border-collapse: separate;
             border-spacing: 0;
         }
-        
+
         .table-modern thead th {
             background: #f8f9fa;
             border: none;
@@ -95,22 +95,22 @@
             color: #6c757d;
             padding: 15px 20px;
         }
-        
+
         .table-modern tbody tr {
             transition: all 0.2s ease;
         }
-        
+
         .table-modern tbody tr:hover {
             background: #f8f9fa;
             transform: scale(1.01);
         }
-        
+
         .table-modern tbody td {
             padding: 15px 20px;
             border-bottom: 1px solid #f0f0f0;
             vertical-align: middle;
         }
-        
+
         .user-avatar {
             width: 45px;
             height: 45px;
@@ -123,21 +123,21 @@
             font-size: 1.1rem;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
-        
+
         .badge-time {
             padding: 6px 12px;
             border-radius: 20px;
             font-size: 0.8rem;
             font-weight: 500;
         }
-        
+
         .btn-view-all {
             padding: 10px 25px;
             border-radius: 25px;
             font-weight: 600;
             transition: all 0.3s ease;
         }
-        
+
         .btn-view-all:hover {
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -177,7 +177,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-xl-3 col-sm-6 mb-4">
             <div class="card stat-card stat-card-secondary">
                 <div class="card-body text-center">
@@ -189,7 +189,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-xl-3 col-sm-6 mb-4">
             <div class="card stat-card stat-card-accent">
                 <div class="card-body text-center">
@@ -201,7 +201,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-xl-3 col-sm-6 mb-4">
             <div class="card stat-card stat-card-mixed">
                 <div class="card-body text-center">

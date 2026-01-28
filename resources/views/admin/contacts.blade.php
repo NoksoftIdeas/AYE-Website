@@ -10,18 +10,18 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
             overflow: hidden;
         }
-        
+
         .contact-card .card-header {
             background: linear-gradient(135deg, #8B1E3F 0%, #6F1832 100%);
             border: none;
             padding: 20px 25px;
         }
-        
+
         .table-contacts {
             border-collapse: separate;
             border-spacing: 0;
         }
-        
+
         .table-contacts thead th {
             background: #f8f9fa;
             border: none;
@@ -32,23 +32,23 @@
             padding: 15px 20px;
             white-space: nowrap;
         }
-        
+
         .table-contacts tbody tr {
             transition: all 0.2s ease;
             border-bottom: 1px solid #f0f0f0;
         }
-        
+
         .table-contacts tbody tr:hover {
             background: #f8f9fa;
             transform: scale(1.01);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
-        
+
         .table-contacts tbody td {
             padding: 15px 20px;
             vertical-align: middle;
         }
-        
+
         .user-avatar {
             width: 45px;
             height: 45px;
@@ -61,7 +61,7 @@
             font-size: 1.1rem;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
-        
+
         .badge-date {
             padding: 6px 12px;
             border-radius: 20px;
@@ -70,7 +70,7 @@
             background: #8B1E3F;
             color: white;
         }
-        
+
         .btn-delete {
             padding: 6px 15px;
             border-radius: 20px;
@@ -81,28 +81,28 @@
             color: #dc3545;
             transition: all 0.3s ease;
         }
-        
+
         .btn-delete:hover {
             background: #dc3545;
             color: white;
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
         }
-        
+
         .message-cell {
             max-width: 300px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        
+
         .email-link {
             color: #2FA4A9;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.2s ease;
         }
-        
+
         .email-link:hover {
             color: #268387;
             text-decoration: underline;

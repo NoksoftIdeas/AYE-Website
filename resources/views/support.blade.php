@@ -19,7 +19,7 @@
                 Whether you're living with sickle cell disease, caring for someone who is, or seeking information, we provide comprehensive resources to help you navigate this journey.
             </p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
@@ -32,7 +32,7 @@
                     Practical guidance on daily management, lifestyle adjustments, and thriving with SCD.
                 </p>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-secondary-100 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@
                     Strategies for managing pain crises and improving quality of life during episodes.
                 </p>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-accent-100 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -56,7 +56,7 @@
                     Dietary recommendations and lifestyle tips for managing sickle cell disease effectively.
                 </p>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@
                     Emotional wellbeing resources, coping strategies, and mental health guidance.
                 </p>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-secondary-100 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@
                     Resources and support for families and caregivers of people with sickle cell disease.
                 </p>
             </div>
-            
+
             <div class="card animate-on-scroll">
                 <div class="w-16 h-16 bg-accent-100 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-8 h-8 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,7 +103,7 @@
             <h2 class="text-primary mb-4">Download Our Resources</h2>
             <p class="text-lg text-gray-600">Free educational materials and guides</p>
         </div>
-        
+
         <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             @foreach($resources as $resource)
             <div class="bg-white rounded-lg shadow p-6 hover:shadow-xl transition animate-on-scroll">
@@ -139,7 +139,7 @@
     <div class="container-custom">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-primary mb-6 text-center">Key Support Areas</h2>
-            
+
             <div class="space-y-8">
                 <div class="bg-gradient-to-r from-primary-50 to-white p-8 rounded-lg animate-on-scroll">
                     <h3 class="text-2xl font-semibold mb-4">Pain & Crisis Management</h3>
@@ -166,7 +166,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="bg-gradient-to-r from-secondary-50 to-white p-8 rounded-lg animate-on-scroll">
                     <h3 class="text-2xl font-semibold mb-4">Nutrition & Lifestyle Tips</h3>
                     <ul class="space-y-3 text-gray-700">
@@ -192,7 +192,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="bg-gradient-to-r from-accent-50 to-white p-8 rounded-lg animate-on-scroll">
                     <h3 class="text-2xl font-semibold mb-4">Mental & Emotional Wellbeing</h3>
                     <ul class="space-y-3 text-gray-700">

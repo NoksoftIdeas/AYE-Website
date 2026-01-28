@@ -19,13 +19,13 @@
             <!-- Contact Form -->
             <div class="animate-on-scroll">
                 <h2 class="text-primary mb-6">Send Us a Message</h2>
-                
+
                 @if(session('success'))
                 <div class="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg mb-6">
                     {{ session('success') }}
                 </div>
                 @endif
-                
+
                 @if($errors->any())
                 <div class="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg mb-6">
                     <ul class="list-disc list-inside">
@@ -35,48 +35,48 @@
                     </ul>
                 </div>
                 @endif
-                
+
                 <form action="{{ route('contact.submit') }}" method="POST" class="space-y-6">
                     @csrf
-                    
+
                     <div>
                         <label for="name" class="label">Full Name <span class="text-red-500">*</span></label>
                         <input type="text" id="name" name="name" value="{{ old('name') }}" required class="input-field" placeholder="Enter your full name">
                     </div>
-                    
+
                     <div>
                         <label for="email" class="label">Email Address <span class="text-red-500">*</span></label>
                         <input type="email" id="email" name="email" value="{{ old('email') }}" required class="input-field" placeholder="your.email@example.com">
                     </div>
-                    
+
                     <div>
                         <label for="phone" class="label">Phone Number</label>
                         <input type="tel" id="phone" name="phone" value="{{ old('phone') }}" class="input-field" placeholder="+234 XXX XXX XXXX">
                     </div>
-                    
+
                     <div>
                         <label for="subject" class="label">Subject</label>
                         <input type="text" id="subject" name="subject" value="{{ old('subject') }}" class="input-field" placeholder="What is this regarding?">
                     </div>
-                    
+
                     <div>
                         <label for="message" class="label">Message <span class="text-red-500">*</span></label>
                         <textarea id="message" name="message" rows="6" required class="input-field" placeholder="Tell us how we can help you...">{{ old('message') }}</textarea>
                     </div>
-                    
+
                     <button type="submit" class="btn btn-primary w-full">
                         Send Message
                     </button>
                 </form>
             </div>
-            
+
             <!-- Contact Information -->
             <div class="animate-on-scroll">
                 <h2 class="text-primary mb-6">Get In Touch</h2>
                 <p class="text-gray-600 mb-8">
                     Have questions or need support? We're here for you. Reach out to us through any of the following channels:
                 </p>
-                
+
                 <div class="space-y-6">
                     <!-- Phone -->
                     <div class="card flex items-start">
@@ -95,7 +95,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                     <!-- Email -->
                     <div class="card flex items-start">
                         <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
@@ -110,7 +110,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                     <!-- Office Hours -->
                     <div class="card flex items-start">
                         <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Quick Actions -->
                 <div class="mt-8 p-6 bg-gradient-to-r from-primary-50 to-secondary-50 rounded-lg">
                     <h3 class="font-semibold mb-4">Looking for Something Specific?</h3>

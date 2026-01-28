@@ -21,7 +21,7 @@
                 Understanding sickle cell disease is the first step toward better management, early diagnosis, and improved quality of life. Explore our comprehensive educational resources below.
             </p>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- What is Sickle Cell -->
             <div class="card group hover:shadow-2xl animate-on-scroll">
@@ -41,7 +41,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <!-- Causes & Genetics -->
             <div class="card group hover:shadow-2xl animate-on-scroll">
                 <div class="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-700 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition">
@@ -60,7 +60,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <!-- Signs & Symptoms -->
             <div class="card group hover:shadow-2xl animate-on-scroll">
                 <div class="w-16 h-16 bg-gradient-to-br from-accent to-accent-700 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition">
@@ -79,7 +79,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <!-- Types -->
             <div class="card group hover:shadow-2xl animate-on-scroll">
                 <div class="w-16 h-16 bg-gradient-to-br from-primary-600 to-secondary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition">
@@ -98,7 +98,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <!-- Early Diagnosis -->
             <div class="card group hover:shadow-2xl animate-on-scroll">
                 <div class="w-16 h-16 bg-gradient-to-br from-secondary-600 to-primary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition">
@@ -117,7 +117,7 @@
                     </svg>
                 </a>
             </div>
-            
+
             <!-- Myths vs Facts -->
             <div class="card group hover:shadow-2xl animate-on-scroll">
                 <div class="w-16 h-16 bg-gradient-to-br from-accent-600 to-primary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition">
@@ -204,7 +204,7 @@
                 <p class="mb-4">
                     Signs and symptoms of sickle cell disease can vary from person to person and change over time. Common symptoms include:
                 </p>
-                
+
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                     <div class="bg-white p-6 rounded-lg shadow">
                         <h4 class="font-semibold mb-3 text-lg">Common Symptoms:</h4>
@@ -229,7 +229,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
                     <p class="font-semibold text-red-700 mb-2">⚠️ When to Seek Emergency Care:</p>
                     <ul class="list-disc list-inside space-y-2 text-red-700">

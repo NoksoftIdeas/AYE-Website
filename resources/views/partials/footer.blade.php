@@ -13,7 +13,7 @@
                     Dedicated to improving the quality of life for individuals living with sickle cell disease through awareness, advocacy, and support.
                 </p>
             </div>
-            
+
             <!-- Quick Links -->
             <div>
                 <h3 class="font-heading font-semibold text-white mb-4">Quick Links</h3>
@@ -25,7 +25,7 @@
                     <li><a href="{{ route('advocacy') }}" class="hover:text-accent transition">Advocacy</a></li>
                 </ul>
             </div>
-            
+
             <!-- Get Involved -->
             <div>
                 <h3 class="font-heading font-semibold text-white mb-4">Get Involved</h3>
@@ -36,7 +36,7 @@
                     <li><a href="{{ route('contact') }}" class="hover:text-accent transition">Contact Us</a></li>
                 </ul>
             </div>
-            
+
             <!-- Contact Info -->
             <div>
                 <h3 class="font-heading font-semibold text-white mb-4">Contact Us</h3>
@@ -59,9 +59,9 @@
                 </ul>
             </div>
         </div>
-        
+
         <hr class="my-8 border-gray-700">
-        
+
         <!-- Bottom Bar -->
         <div class="flex flex-col md:flex-row justify-between items-center text-sm">
             <p>&copy; {{ date('Y') }} Aye Sickle Cell Foundation. All rights reserved.</p>

@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', config('app.name', 'AYE Sickle Cell Foundation'))</title>
     <meta name="description" content="@yield('meta_description', 'Aye Sickle Cell Foundation is dedicated to improving the quality of life for individuals living with sickle cell disease.')">
-    
+
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -103,20 +103,20 @@
         .nav-link {
             @apply text-gray-700 hover:text-primary font-medium transition-colors duration-200 relative;
         }
-        
+
         .nav-link.active {
             @apply text-primary;
         }
-        
+
         .nav-link.active::after {
             content: '';
             @apply absolute bottom-0 left-0 right-0 h-0.5 bg-primary;
         }
-        
+
         .nav-link-mobile {
             @apply text-gray-700 hover:text-primary font-medium py-2 px-4 rounded-lg hover:bg-primary-50 transition-all duration-200;
         }
-        
+
         .nav-link-mobile.active {
             @apply text-primary bg-primary-50;
         }

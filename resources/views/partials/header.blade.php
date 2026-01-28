@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Main Navigation -->
     <nav class="container-custom py-4">
         <div class="flex justify-between items-center">
@@ -40,7 +40,7 @@
                     <div class="text-xs text-gray-600">Creating Awareness, Saving Lives</div>
                 </div>
             </a>
-            
+
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex items-center space-x-6">
                 <a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
@@ -51,7 +51,7 @@
                 <a href="{{ route('get-involved') }}" class="nav-link {{ request()->routeIs('get-involved') ? 'active' : '' }}">Get Involved</a>
                 <a href="{{ route('contact') }}" class="btn btn-primary">Contact Us</a>
             </div>
-            
+
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="lg:hidden text-primary p-2">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@
                 </svg>
             </button>
         </div>
-        
+
         <!-- Mobile Navigation -->
         <div id="mobile-menu" class="hidden lg:hidden mt-4 pb-4 space-y-2">
             <a href="{{ route('home') }}" class="block py-2 px-4 hover:bg-gray-100 rounded {{ request()->routeIs('home') ? 'bg-primary-50' : '' }}">Home</a>
