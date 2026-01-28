@@ -24,7 +24,7 @@ return [
     'providers' => ServiceProvider::defaultProviders()
         ->except([
             // Exclude dev-only service providers in production
-            app()->environment('local') ? null : \Laravel\Pail\PailServiceProvider::class,
+            env('APP_ENV') === 'local' ? null : \Laravel\Pail\PailServiceProvider::class,
         ])
         ->merge([
             App\Providers\AppServiceProvider::class,
