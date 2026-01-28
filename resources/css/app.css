@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary: #8B1E3F;
+        --secondary: #2FA4A9;
+        --accent: #F4D35E;
+    }
+    
+    body {
+        font-family: 'Poppins', 'Segoe UI', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+}
+
+@layer components {
+    .hero-section {
+        @apply relative bg-gradient-to-br from-primary via-primary-700 to-primary-900 py-20 lg:py-32 overflow-hidden;
+    }
+    
+    .hero-section::before {
+        content: '';
+        @apply absolute inset-0 opacity-10;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    
+    .section-padding {
+        @apply py-16 lg:py-24;
+    }
+    
+    .container-custom {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+    
+    .btn {
+        @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1;
+    }
+    
+    .btn-primary {
+        @apply bg-primary text-white hover:bg-primary-700;
+    }
+    
+    .btn-secondary {
+        @apply bg-secondary text-white hover:bg-secondary-700;
+    }
+    
+    .btn-accent {
+        @apply bg-accent text-primary-900 hover:bg-accent-700;
+    }
+    
+    .btn-outline {
+        @apply border-2 border-primary text-primary hover:bg-primary hover:text-white;
+    }
+    
+    .card {
+        @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2;
+    }
+    
+    .animate-on-scroll {
+        @apply opacity-0 translate-y-8 transition-all duration-700;
+    }
+    
+    .animate-on-scroll.visible {
+        @apply opacity-100 translate-y-0;
+    }
+}
