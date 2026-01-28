@@ -21,17 +21,12 @@ return [
         'driver' => 'file',
     ],
 
-    'providers' => ServiceProvider::defaultProviders()
-        ->except([
-            // Exclude dev-only service providers in production
-            env('APP_ENV') === 'local' ? null : \Laravel\Pail\PailServiceProvider::class,
-        ])
-        ->merge([
-            App\Providers\AppServiceProvider::class,
-            App\Providers\AuthServiceProvider::class,
-            App\Providers\EventServiceProvider::class,
-            App\Providers\RouteServiceProvider::class,
-        ])->toArray(),
+    'providers' => ServiceProvider::defaultProviders()->merge([
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
+    ])->toArray(),
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
